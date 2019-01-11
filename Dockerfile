@@ -5,5 +5,4 @@ RUN npm install -g hexo-cli \
     && cd /root/blog \
     && npm install
 RUN npm install hexo-server --save
-VOLUME ./source
 CMD ["hexo", "server"]
